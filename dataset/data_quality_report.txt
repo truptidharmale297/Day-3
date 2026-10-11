@@ -1,0 +1,46 @@
+FACILITY DATA QUALITY REPORT
+===================================
+Original row count: 15
+
+Missing values before cleaning:
+facility_id           0
+location              0
+cleanliness_score     1
+odor_score            1
+waste_level           0
+water_availability    0
+footfall              0
+complaints            1
+inspection_date       0
+
+Exact duplicate rows: 1
+
+Invalid values in cleanliness_score: 3
+
+Invalid values in odor_score: 1
+Negative values in footfall: 0
+Negative values in complaints: 0
+
+Invalid or missing dates after conversion: 1
+
+POSSIBLE NUMERIC OUTLIERS (IQR)
+cleanliness_score: 0 possible outlier(s)
+odor_score: 0 possible outlier(s)
+footfall: 1 possible outlier(s)
+  Facility IDs: F010
+complaints: 1 possible outlier(s)
+  Facility IDs: F011
+
+Final cleaned row count: 13
+Rows saved to: cleaned_facilities.csv
+
+Missing values after cleaning:
+facility_id           0
+location              0
+cleanliness_score     0
+odor_score            0
+waste_level           0
+water_availability    0
+footfall              0
+complaints            0
+inspection_date       0

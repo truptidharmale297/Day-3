@@ -1,0 +1,16 @@
+facility_id,location,cleanliness_score,odor_score,waste_level,water_availability,footfall,complaints,inspection_date
+F001,Pune,8,2,Low,Yes,120,2,2026-09-01
+F002,Mumbai,6,5,Medium,Yes,250,5,2026-09-02
+F003,Nashik,9,1,Low,Yes,180,1,2026-09-03
+F004,Pune,4,8,High,No,300,12,2026-09-04
+F005,Mumbai,7,4,Medium,Yes,220,4,2026-09-05
+F006,Nashik,8,3,Low,Yes,160,2,2026-09-06
+F006,Nashik,8,3,Low,Yes,160,2,2026-09-06
+F007,Pune,,6,High,No,280,9,2026-09-07
+F008,Mumbai,11,3,Low,Yes,200,3,2026-09-08
+F009,Nashik,5,,Medium,Yes,190,6,2026-09-09
+F010,Pune,7,4,Medium,Yes,9999,4,2026-09-10
+F011,Mumbai,-2,5,High,No,320,15,2026-09-11
+F012,Nashik,8,2,Low,Yes,170,,2026-09-12
+F013,Pune,6,5,Medium,Yes,210,5,invalid-date
+F014,Mumbai,9,2,Low,Yes,230,2,2026-09-14
